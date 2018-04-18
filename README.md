@@ -1,4 +1,4 @@
-## La captura de les rates
+# La plaga de rates
 
 ![Formatges](https://github.com/XavierSala/CapturaDeRates/raw/master/imatges/rates1.png)
 
@@ -12,18 +12,29 @@ Per això ha decidit contractar l’empresa ecològica de liquidació de plagues
 
 Després d’una anàlisi exhaustiva, i amb l’ajuda d’un model d’intel·ligència artificial, l’empresa ja ha descobert que es poden determinar quines són les rutes que seguiran cada una de les rates (abans que les mateixes rates ho sàpiguen!).
 
-    {
-    "id" : 1,  "objecte" : "rata",  "posicio" : { "x" : 0, "y" : 1 }, "nom" : "Rata1",
+```json
+{
+    "id" : 1,
+    "objecte" : "rata",  
+    "posicio" : { "x" : 0, "y" : 1 },
+    "nom" : "Rata1",
     "previsioMoviments" : [  "^", ">", "v", "v", ">", ">" ]
-    }
-    {
-    "id" : 2,  "objecte" : "rata",  "posicio" : { "x" : 4, "y" : 0 }, "nom" : "Rata2",
+}
+{
+    "id" : 2,
+    "objecte" : "rata",
+    "posicio" : { "x" : 4, "y" : 0 },
+    "nom" : "Rata2",
     "previsioMoviments" : [ "<", "<", "<", "v", "v" ]
-    }
-    {
-    "id" : 3,  "objecte" : "rata",  "posicio" : { "x" : 0, "y" : 1 }, "nom" : "Rata3",
+}
+{
+    "id" : 3,
+    "objecte" : "rata",
+    "posicio" : { "x" : 0, "y" : 1 },
+    "nom" : "Rata3",
     "previsioMoviments" : [ "^", ">", "v", "v", ">", ">"]
-    }
+}
+```
 
 ![recorregut](https://github.com/XavierSala/CapturaDeRates/raw/master/imatges/rates3.png)
 
@@ -31,13 +42,16 @@ Tenint en compte que els gats d’aquesta empresa són molt efectius i capturen 
 
 ![gats estàtics](https://github.com/XavierSala/CapturaDeRates/raw/master/imatges/rates4.png)
 
-    { "id" : 10,
-      "objecte" : "gat",
-      "posicio" : {
-         "x" : 2,
-         "y" : 1
-      }
-    }
+```json
+{
+  "id": 10,
+  "objecte": "gat",
+  "posicio": {
+    "x": 2,
+    "y": 1
+  }
+}
+```
 
 ## Tasca
 
@@ -53,6 +67,8 @@ Per fer aquesta tasca caldrà tenir la col·lecció ‘rates’ importada en un 
 
 Es pot importar fent servir la comanda mongoimport:
 
-    $ mongoimport --db=fabrica --collection=rates
-                --host 172.17.0.3 rates.json
-                --jsonArray
+```bash
+$ mongoimport --db=fabrica --collection=rates
+              --host 172.17.0.3 rates.json
+              --jsonArray
+```
