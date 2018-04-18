@@ -45,7 +45,8 @@ Tenint en compte el número de gats que han portat a la fàbrica i el lloc on el
 
 ![Rata capturada](https://github.com/XavierSala/CapturaDeRates/raw/master/imatges/rates5.png)
 
-    Tota la informació (els moviments de les rates, on són els gats i els formatges) s’ha anat emmagatzemant en una base de dades MongoDB
+    Tota la informació (els moviments de les rates, on són els gats i els formatges) s’ha anat emmagatzemant 
+    en una base de dades MongoDB
 
     Per fer aquesta tasca caldrà tenir la col·lecció ‘rates’ importada en un servidor MongoDB [Descarrear]000(https://drive.google.com/file/d/1F3pKFVCnI3kAQmfMp_HmqmbGp58qbc_f/view?usp=sharing)
 
