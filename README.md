@@ -1,6 +1,8 @@
 ## La captura de les rates
 
-Una fàbrica de formatges té una plaga de rates que els està deixant sense existències. El problema és que com que fabriquen formatges no poden fer servir verí per eliminar les rates…
+![Formatges](imatges/rates1.png)
+
+Una fàbrica de formatges té una plaga de rates que els està deixant sense existències. El problema és que com que fabriquen formatges no poden fer servir verí per eliminar les rates perquè hi ha perill de que algun formatge s'enverini …
 
 ![Formatges](imatges/rates0.png)
 
@@ -28,6 +30,14 @@ Després d’una anàlisi exhaustiva, i amb l’ajuda d’un model d’intel·li
 Tenint en compte que els gats d’aquesta empresa són molt efectius i capturen tot el que els hi passa pel costat però que, degut a l’èxit de l’empresa, estan molt grassos i quan els posen en un lloc no se’n mouen per res i només capturen les rates que vagin allà...
 
 ![gats estàtics](imatges/rates4.png)
+
+    { "id" : 10,
+      "objecte" : "gat",
+      "posicio" : {
+         "x" : 2,
+         "y" : 1
+      }
+    }
 
 ## Tasca
 
