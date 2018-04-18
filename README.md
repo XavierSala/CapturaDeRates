@@ -1,14 +1,14 @@
 ## La captura de les rates
 
-![Formatges](imatges/rates1.png)
+![Formatges](https://github.com/XavierSala/CapturaDeRates/raw/master/imatges/rates1.png)
 
 Una fàbrica de formatges té una plaga de rates que els està deixant sense existències. El problema és que com que fabriquen formatges no poden fer servir verí per eliminar les rates perquè hi ha perill de que algun formatge s'enverini …
 
-![Formatges](imatges/rates0.png)
+![Formatges](https://github.com/XavierSala/CapturaDeRates/raw/master/imatges/rates0.png)
 
 Per això ha decidit contractar l’empresa ecològica de liquidació de plagues especialitzada en rates: “CAT ALLUNYA, SL”. Aquesta empresa fa servir gats per eliminar les rates.
 
-![Rata](imatges/rates2.png)
+![Rata](https://github.com/XavierSala/CapturaDeRates/raw/master/imatges/rates2.png)
 
 Després d’una anàlisi exhaustiva, i amb l’ajuda d’un model d’intel·ligència artificial, l’empresa ja ha descobert que es poden determinar quines són les rutes que seguiran cada una de les rates (abans que les mateixes rates ho sàpiguen!).
 
@@ -25,11 +25,11 @@ Després d’una anàlisi exhaustiva, i amb l’ajuda d’un model d’intel·li
     "previsioMoviments" : [ "^", ">", "v", "v", ">", ">"]
     }
 
-![recorregut](imatges/rates3.png)
+![recorregut](https://github.com/XavierSala/CapturaDeRates/raw/master/imatges/rates3.png)
 
 Tenint en compte que els gats d’aquesta empresa són molt efectius i capturen tot el que els hi passa pel costat però que, degut a l’èxit de l’empresa, estan molt grassos i quan els posen en un lloc no se’n mouen per res i només capturen les rates que vagin allà...
 
-![gats estàtics](imatges/rates4.png)
+![gats estàtics](https://github.com/XavierSala/CapturaDeRates/raw/master/imatges/rates4.png)
 
     { "id" : 10,
       "objecte" : "gat",
@@ -43,7 +43,7 @@ Tenint en compte que els gats d’aquesta empresa són molt efectius i capturen 
 
 Tenint en compte el número de gats que han portat a la fàbrica i el lloc on els han deixat, feu un programa que determini quants formatges es menjaran les rates i quantes rates seran atrapades pels gats
 
-![Rata capturada](imatges/rates5.png)
+![Rata capturada](https://github.com/XavierSala/CapturaDeRates/raw/master/imatges/rates5.png)
 
     Tota la informació (els moviments de les rates, on són els gats i els formatges) s’ha anat emmagatzemant en una base de dades MongoDB
 
