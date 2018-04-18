@@ -30,7 +30,7 @@ Després d’una anàlisi exhaustiva, i amb l’ajuda d’un model d’intel·li
 {
     "id" : 3,
     "objecte" : "rata",
-    "posicio" : { "x" : 0, "y" : 1 },
+    "posicio" : { "x" : 4, "y" : 2 },
     "nom" : "Rata3",
     "previsioMoviments" : [ "^", ">", "v", "v", ">", ">"]
 }
