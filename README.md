@@ -2,7 +2,7 @@
 
 ![Formatges](https://github.com/XavierSala/CapturaDeRates/raw/master/imatges/rates1.png)
 
-Una fàbrica de formatges té una plaga de rates que els està deixant sense existències. El problema és que com que fabriquen formatges no poden fer servir verí per eliminar les rates perquè hi ha perill de que algun formatge s'enverini …
+Una fàbrica de formatges té una plaga de rates que els està deixant sense existències. El problema és que com que fabriquen formatges no poden fer servir verí per eliminar les rates ja que hi ha perill de que algun formatge s'enverini …
 
 ![Formatges](https://github.com/XavierSala/CapturaDeRates/raw/master/imatges/rates0.png)
 
