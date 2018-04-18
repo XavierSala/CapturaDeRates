@@ -49,10 +49,10 @@ Tota la informació (els moviments de les rates, on són els gats i els formatge
 
 ### Base de dades
 
-Per fer aquesta tasca caldrà tenir la col·lecció ‘rates’ importada en un servidor MongoDB [Descarregar](https://drive.google.com/file/d/1F3pKFVCnI3kAQmfMp_HmqmbGp58qbc_f/view?usp=sharing)
+Per fer aquesta tasca caldrà tenir la col·lecció ‘rates’ importada en un servidor MongoDB: [Descarregar](https://drive.google.com/file/d/1F3pKFVCnI3kAQmfMp_HmqmbGp58qbc_f/view?usp=sharing)
 
 Es pot importar fent servir la comanda mongoimport:
 
-    $ mongoimport --db=poble --collection=rates
+    $ mongoimport --db=fabrica --collection=rates
                 --host 172.17.0.3 rates.json
                 --jsonArray
