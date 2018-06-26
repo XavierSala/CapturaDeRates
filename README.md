@@ -1,3 +1,5 @@
+#FpExperiencies #DawMp03Uf06 #Programació #BasesDeDades #Mongo
+
 # La plaga de rates
 
 ![Formatges](https://github.com/XavierSala/CapturaDeRates/raw/master/imatges/rates1.png)
