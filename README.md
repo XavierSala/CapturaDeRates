@@ -1,4 +1,4 @@
-#FpExperiencies #DawMp03Uf06 #Programació #BasesDeDades #Mongo
+#FpInfor #DawMp03Uf06 #Programació #BasesDeDades #Mongo
 
 # La plaga de rates
 
